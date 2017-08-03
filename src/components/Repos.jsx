@@ -10,7 +10,7 @@ class Repos extends React.Component {
     }
 
     renderFollower(repo) {
-        console.log(repo);
+
         return <li className="liRepos" key={repo.id}><GithubRepo repo={repo} /></li>;
     }
 
