@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
 body {
-    font-family: Helvetica;
+    font-family: 'Oxygen', sans-serif;
     margin: 0;
 }
 
@@ -43,12 +45,26 @@ h1,h2,h3,h4,h5,h6 {
     padding: 0.2em;
     margin-right: 1em;
     font-size: 20px;
+    font-family: FontAwesome;
+    color: indigo;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
 }
 .search-page__button {
     border: 1px solid black;
-    background-color: #fff;
+    background-color: #F7F7F9;
     font-size: 20px;
+    font-family: 'Oxygen', sans-serif;
+    height: 33px;
+    color: black;
 }
+
+.search-page__button:hover {
+    background-color: orangered;
+    color: black;
+}
+
 
 
 
@@ -105,3 +121,20 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0;
     white-space: nowrap;
 }
+
+.spanRepoForks {
+    border: 1px solid black;
+    color: black;
+}
+
+.linkRepos {
+    text-decoration: none;
+    color: #000;
+}
+
+.linkRepos:hover {
+    text-decoration: underline;
+    color: darkmagenta;
+}
+
+

@@ -1,0 +1,19 @@
+.imgFollowers {
+    border-radius: 50%;
+    margin: 10px 10px;
+    width: 100px;
+    height: 100px;
+}
+
+ul {
+    list-style: none;
+}
+
+.fa-star {
+    color: red;
+}
+
+.liRepos {
+    margin-top: 10px;
+}
+

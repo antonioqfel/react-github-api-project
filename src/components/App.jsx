@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
+import './App.css';
 
 /*
 This is the layout component. It's displayed by the top-level Route
@@ -13,7 +14,7 @@ class App extends React.Component {
         return (
             <div className="main-app">
                 <header className="main-header">
-                    <h1><Link to="/">React GitHub Project</Link></h1>
+                    <h1><Link to="/">React GitHub Project<span>&nbsp;&nbsp;<i className="fa fa-github" aria-hidden="true"></i></span></Link></h1>
                 </header>
                 <main className="main-content">
                     {this.props.children}
